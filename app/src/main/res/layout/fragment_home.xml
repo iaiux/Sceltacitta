@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+            android:text="@string/Milano"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnMilano" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="48dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnNapoli"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.394" app:layout_constraintHorizontal_bias="0.498"
+            android:backgroundTint="@android:color/holo_orange_dark" android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"/>
+    <TextView
+            android:layout_width="347dp"
+            android:layout_height="64dp"
+            android:text="@string/Select"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@android:dimen/app_icon_size"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.066"
+            app:layout_constraintHorizontal_bias="0.5"/>
+    <Button
+            android:text="@string/Roma"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnRoma" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintVertical_bias="0.069" app:layout_constraintHorizontal_bias="0.498"
+            android:backgroundTint="@android:color/holo_orange_dark" android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" app:layout_constraintBottom_toTopOf="@+id/btnNapoli"/>
+    <Button
+            android:text="@string/Napoli"
+            android:layout_width="400dp"
+            android:layout_height="51dp"
+            android:id="@+id/btnNapoli" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="48dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnRoma"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintVertical_bias="0.224" app:layout_constraintHorizontal_bias="0.498"
+            android:backgroundTint="@android:color/holo_orange_dark" android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" app:layout_constraintBottom_toTopOf="@+id/btnMilano"/>
+
+</android.support.constraint.ConstraintLayout>

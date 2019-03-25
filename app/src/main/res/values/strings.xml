@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NavTest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="figlio">Figlio</string>
+    <string name="vai">Vai!</string>
+    <string name="Fragment2">Sei nel frammento 2</string>
+    <string name="vai2">Al Frammento 2</string>
+    <string name="Select">Seleziona città:</string>
+    <string name="Roma">Roma</string>
+    <string name="Napoli">Napoli</string>
+    <string name="Milano">Milano</string>
+    <string name="Napoli1">Sei nella pagina di Napoli</string>
+    <string name="Milano1">Sei nella pagina di Milano</string>
+    <string name="Roma1">Sei nella pagina di Roma</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment" android:name="it.unicampania.lsadm.navtest.HomeFragment"
+              android:label="fragment_home" tools:layout="@layout/fragment_home">
+        <action android:id="@+id/action_homeFragment_to_Roma" app:destination="@id/RomaFragment"/>
+        <action android:id="@+id/action_homeFragment_to_Napoli" app:destination="@id/NapoliFragment"/>
+        <action android:id="@+id/action_homeFragment_to_milanoFragment" app:destination="@id/MilanoFragment"/>
+    </fragment>
+    <fragment android:id="@+id/RomaFragment" android:name="it.unicampania.lsadm.navtest.FiglioFragment"
+              android:label="fragment_roma" tools:layout="@layout/fragment_figlio"/>
+    <fragment android:id="@+id/NapoliFragment" android:name="it.unicampania.lsadm.navtest.Fragment2"
+              android:label="fragment_napoli" tools:layout="@layout/fragment_2_layout"/>
+    <fragment android:id="@+id/MilanoFragment" android:name="it.unicampania.lsadm.navtest.MilanoFragment"
+              android:label="fragment_milano" tools:layout="@layout/fragment_milano"/>
+</navigation>
