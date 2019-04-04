@@ -8,7 +8,8 @@
         tools:context=".MainActivity">
     <fragment
             android:name="androidx.navigation.fragment.NavHostFragment"
-            android:layout_width="match_parent"
+            android:layout_width="408dp"
             android:layout_height="match_parent" app:navGraph="@navigation/nav_graph" app:defaultNavHost="true"
-            android:id="@+id/nav_host_fragment"/>
+            android:id="@+id/nav_host_fragment" tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="3dp"/>
 </android.support.constraint.ConstraintLayout>
